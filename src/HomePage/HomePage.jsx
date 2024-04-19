@@ -1,3 +1,4 @@
+import AllAccPage from "../AllAccPage/AllAccPage"
 import CreditAccCard from "../CreditAccCard/CreditAccCard"
 import DebitAccCard from "../DebitAccCard/DebitAccCard"
 import InvestAccCard from "../InvestAccCard/InvestAccCard"
@@ -28,7 +29,7 @@ function Home() {
             </section>
 
             <section>
-
+                <AllAccPage />
             </section>
         </main>
     )

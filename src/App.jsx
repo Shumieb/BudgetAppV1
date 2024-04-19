@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
-import Home from './Home/Home';
-import About from './About/About';
+import Home from './HomePage/HomePage';
+import About from './AboutPage/AboutPage';
 import NoMatch from './NoMatch/NoMatch';
 import Contact from './Contact/Contact';
 

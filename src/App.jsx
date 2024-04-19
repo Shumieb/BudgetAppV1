@@ -6,7 +6,7 @@ import Header from './Header/Header'
 import Home from './HomePage/HomePage';
 import About from './AboutPage/AboutPage';
 import NoMatch from './NoMatch/NoMatch';
-import Contact from './Contact/Contact';
+import Contact from './ContactPage/ContactPage';
 
 function App() {
 

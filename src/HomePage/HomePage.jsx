@@ -1,8 +1,13 @@
+import AllAccCard from "../AllAccCard/AllAccCard"
 import AllAccPage from "../AllAccPage/AllAccPage"
 import CreditAccCard from "../CreditAccCard/CreditAccCard"
+import CreditAccPage from "../CreditAccPage/CreditAccPage"
 import DebitAccCard from "../DebitAccCard/DebitAccCard"
+import DebitAccPage from "../DebitAccPage/DebitAccPage"
 import InvestAccCard from "../InvestAccCard/InvestAccCard"
+import InvestAccPage from "../InvestAccPage/InvestAccPage"
 import SavingsAccCard from "../SavingsAccCard/SavingsAccCard"
+import SavingsAccPage from "../SavingsAccPage/SavingsAccPage"
 
 function Home() {
     return (
@@ -12,7 +17,7 @@ function Home() {
                     <input type="button" value="Add Account" />
                 </div>
                 <div>
-                    <h3>All Accounts</h3>
+                    <AllAccCard />
                 </div>
                 <div>
                     <DebitAccCard />
@@ -30,6 +35,10 @@ function Home() {
 
             <section>
                 <AllAccPage />
+                <DebitAccPage />
+                <SavingsAccPage />
+                <CreditAccPage />
+                <InvestAccPage />
             </section>
         </main>
     )

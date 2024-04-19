@@ -1,3 +1,4 @@
+import AccTypeToAddModal from "../AccTypeToAddModal/AccTypeToAddModal"
 import AllAccCard from "../AllAccCard/AllAccCard"
 import AllAccPage from "../AllAccPage/AllAccPage"
 import CreditAccCard from "../CreditAccCard/CreditAccCard"
@@ -40,6 +41,10 @@ function Home() {
                 <CreditAccPage />
                 <InvestAccPage />
             </section>
+
+            <div>
+                <AccTypeToAddModal />
+            </div>
         </main>
     )
 }

@@ -14,7 +14,6 @@ import AddInvestAccPage from './AddInvestAccPage/AddInvestAccPage';
 
 function App() {
 
-
   return (
     <Router>
       <Header />

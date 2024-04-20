@@ -1,18 +1,28 @@
+import { Link } from "react-router-dom"
+
 function AccTypeToAddModal() {
     return (
         <div>
             <h3>Select Account Type To Add</h3>
             <div>
-                <input type="button" value="Add Debit Account" />
+                <Link to="/AddDebitAccount">
+                    Add Debit Account
+                </Link>
             </div>
             <div>
-                <input type="button" value="Add Savings Account" />
+                <Link to="/AddSavingsAccount">
+                    Add Savings Account
+                </Link>
             </div>
             <div>
-                <input type="button" value="Add Credit Account" />
+                <Link to="/AddCreditAccount">
+                    Add Credit Account
+                </Link>
             </div>
             <div>
-                <input type="button" value="Add Investment Account" />
+                <Link to="/AddInvestmentAccount">
+                    Add Investment Account
+                </Link>
             </div>
 
         </div>

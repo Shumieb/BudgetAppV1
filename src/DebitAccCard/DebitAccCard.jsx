@@ -1,8 +1,8 @@
 import styles from "./DebitAccCard.module.css"
 
-function DebitAccCard() {
+function DebitAccCard({ DisplayDebitAccPage }) {
     return (
-        <div className={styles.debit_card_container}>
+        <div className={styles.debit_card_container} onClick={DisplayDebitAccPage}>
             <h3 className={styles.card_heading}>Natwest</h3>
             <p className={styles.card_italic_text}>Current Account</p>
             <p className={styles.card_text}>Current Balance: £10,000</p>

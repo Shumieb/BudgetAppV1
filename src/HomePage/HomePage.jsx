@@ -22,36 +22,77 @@ function Home() {
     const [showSavingsAccPage, setShowSavingsAccPage] = useState(false);
     const [showInvestAccPage, setShowInvestAccPage] = useState(false);
 
+    const DisplayAllAccPage = () => {
+        setShowAllAccPage(true);
+        setShowDebitAccPage(false);
+        setShowCreditAccPage(false);
+        setShowSavingsAccPage(false);
+        setShowInvestAccPage(false);
+    }
+
+    const DisplayDebitAccPage = () => {
+        setShowDebitAccPage(true);
+        setShowAllAccPage(false);
+        setShowCreditAccPage(false);
+        setShowSavingsAccPage(false);
+        setShowInvestAccPage(false);
+    }
+
+    const DisplayCreditAccPage = () => {
+        setShowCreditAccPage(true);
+        setShowAllAccPage(false);
+        setShowDebitAccPage(false);
+        setShowSavingsAccPage(false);
+        setShowInvestAccPage(false);
+    }
+
+    const DisplaySavingsAccPage = () => {
+        setShowSavingsAccPage(true);
+        setShowAllAccPage(false);
+        setShowDebitAccPage(false);
+        setShowCreditAccPage(false);
+        setShowInvestAccPage(false);
+    }
+
+    const DisplayInvestAccPage = () => {
+        setShowInvestAccPage(true);
+        setShowAllAccPage(false);
+        setShowDebitAccPage(false);
+        setShowCreditAccPage(false);
+        setShowSavingsAccPage(false);
+    }
+
     return (
         <>
             <main className={styles.main_container}>
+
                 <section className={styles.left_side_bar}>
                     <div className={styles.add_acc_btn_sect}>
                         <input type="button" value="Add New Account" className={styles.add_acc_btn} />
                     </div>
                     <div className={styles.left_side_card}>
-                        <AllAccCard />
+                        <AllAccCard DisplayAllAccPage={DisplayAllAccPage} />
                     </div>
                     <div className={styles.left_side_card}>
-                        <DebitAccCard />
+                        <DebitAccCard DisplayDebitAccPage={DisplayDebitAccPage} />
                     </div>
                     <div className={styles.left_side_card}>
-                        <SavingsAccCard />
+                        <SavingsAccCard DisplaySavingsAccPage={DisplaySavingsAccPage} />
                     </div>
                     <div className={styles.left_side_card}>
-                        <CreditAccCard />
+                        <CreditAccCard DisplayCreditAccPage={DisplayCreditAccPage} />
                     </div>
                     <div className={styles.left_side_card}>
-                        <InvestAccCard />
+                        <InvestAccCard DisplayInvestAccPage={DisplayInvestAccPage} />
                     </div>
                 </section>
 
                 <section className={styles.main_pages}>
-                    <AllAccPage />
-                    <DebitAccPage />
-                    <SavingsAccPage />
-                    <CreditAccPage />
-                    <InvestAccPage />
+                    {showAllAccPage && <AllAccPage />}
+                    {showDebitAccPage && <DebitAccPage />}
+                    {showCreditAccPage && <CreditAccPage />}
+                    {showSavingsAccPage && <SavingsAccPage />}
+                    {showInvestAccPage && <InvestAccPage />}
                 </section>
             </main>
 

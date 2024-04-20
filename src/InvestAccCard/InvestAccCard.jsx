@@ -1,9 +1,11 @@
+import styles from "./InvestAccCard.module.css"
+
 function InvestAccCard() {
     return (
-        <div>
-            <h3>Natwest</h3>
-            <p>Investment Account</p>
-            <p>Current Balance: £10,000</p>
+        <div className={styles.invest_card_container}>
+            <h3 className={styles.card_heading}>Natwest</h3>
+            <p className={styles.card_italic_text}>Investment Account</p>
+            <p className={styles.card_text}>Current Balance: £10,000</p>
         </div>
     )
 }

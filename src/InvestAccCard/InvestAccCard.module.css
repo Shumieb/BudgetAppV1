@@ -1,0 +1,31 @@
+.invest_card_container {
+    padding: 12px 6px;
+    background-color: #45214A;
+    color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+    border: solid 2px #45214A;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 6px rgba(117, 100, 100, 0.06);
+}
+
+.invest_card_container:hover {
+    box-shadow: 4px 4px 8px 8px rgba(117, 100, 100, 0.06);
+}
+
+.invest_card_container .card_heading {
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.invest_card_container .card_text {
+    font-size: 1.05em;
+    padding: 1.5px 0px;
+}
+
+.invest_card_container .card_italic_text {
+    font-size: 1.05em;
+    padding: 1.5px 0px;
+    font-style: italic;
+}

@@ -1,8 +1,8 @@
-import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import { FaCalendarDays } from "react-icons/fa6";
 import AddDebitExpenseForm from '../AddDebitExpenseForm/AddDebitExpenseForm';
 import AddDebitIncomeForm from '../AddDebitIncomeForm/AddDebitIncomeForm';
+import DebitExpenseCard from '../DebitExpenseCard/DebitExpenseCard';
+import DebitIncomeCard from '../DebitIncomeCard/DebitIncomeCard';
 
 function DebitAccPage() {
     return (
@@ -36,40 +36,16 @@ function DebitAccPage() {
                 <div>
                     <ul>
                         <li>
-                            <p>Expense</p>
-                            <p>Due: 25th</p>
-                            <p>-£2,500</p>
-                            <div>
-                                <button>Edit</button>
-                                <button>Delete</button>
-                            </div>
+                            <DebitExpenseCard />
                         </li>
                         <li>
-                            <p>Income</p>
-                            <p>Paid: 25th</p>
-                            <p>-£2,500</p>
-                            <div>
-                                <button>Edit</button>
-                                <button>Delete</button>
-                            </div>
+                            <DebitIncomeCard />
                         </li>
                         <li>
-                            <p>Expense</p>
-                            <p>Due: 25th</p>
-                            <p>-£2,500</p>
-                            <div>
-                                <button>Edit</button>
-                                <button>Delete</button>
-                            </div>
+                            <DebitExpenseCard />
                         </li>
                         <li>
-                            <p>Income</p>
-                            <p>Paid: 25th</p>
-                            <p>-£2,500</p>
-                            <div>
-                                <button>Edit</button>
-                                <button>Delete</button>
-                            </div>
+                            <DebitIncomeCard />
                         </li>
                     </ul>
                 </div>

@@ -12,7 +12,6 @@ function CreditAccAllPageCard() {
                 <p>Monthly Payment due on: 25th of April</p>
                 <p>Monthly Payment paid on: 5th of April</p>
             </div>
-            <hr />
             <div>
                 <button>More Info</button>
             </div>

@@ -10,7 +10,6 @@ function InvestAccAllPageCard() {
                 <p>Amount Earned: £3,000</p>
                 <p>Amount Lost: £3,000</p>
             </div>
-            <hr />
             <div>
                 <button>More Info</button>
             </div>

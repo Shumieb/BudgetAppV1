@@ -9,7 +9,6 @@ function SavingsAccAllPageCard() {
                 <p>Monthly Contribution: £250</p>
                 <p>Interest: 5%</p>
             </div>
-            <hr />
             <div>
                 <button>More Info</button>
             </div>

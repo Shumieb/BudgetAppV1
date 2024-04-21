@@ -10,7 +10,6 @@ function DebitAccAllPageCard() {
                 <p>Outstanding Monthly Expenses: £2,000</p>
                 <p>Balance After All Monthly Expenses: £8,000</p>
             </div>
-            <hr />
             <div>
                 <button>More Info</button>
             </div>

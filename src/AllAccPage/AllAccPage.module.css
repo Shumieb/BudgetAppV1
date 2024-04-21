@@ -1,0 +1,13 @@
+.sect_container {
+    margin-bottom: 2.5em;
+}
+
+.sect_container:last-child {
+    margin-bottom: 0px;
+}
+
+.sect_container .sect_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

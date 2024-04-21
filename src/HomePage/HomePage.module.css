@@ -3,23 +3,19 @@
     margin-top: 2em;
     margin-bottom: 2em;
     min-width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 0.5em;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .left_side_bar {
-    grid-column: 1;
-    min-width: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    min-width: 25%;
+    padding: 4px 12px 4px 4px;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .main_pages {
-    grid-column: 2;
-    min-width: 70%;
+    min-width: 75%;
     border-left: 4px solid #012030;
     padding: 8px;
 }

@@ -80,6 +80,30 @@ function Home() {
                         <SavingsAccCard DisplaySavingsAccPage={DisplaySavingsAccPage} />
                     </div>
                     <div className={styles.left_side_card}>
+                        <DebitAccCard DisplayDebitAccPage={DisplayDebitAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <SavingsAccCard DisplaySavingsAccPage={DisplaySavingsAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <CreditAccCard DisplayCreditAccPage={DisplayCreditAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <InvestAccCard DisplayInvestAccPage={DisplayInvestAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <DebitAccCard DisplayDebitAccPage={DisplayDebitAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <SavingsAccCard DisplaySavingsAccPage={DisplaySavingsAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <DebitAccCard DisplayDebitAccPage={DisplayDebitAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
+                        <SavingsAccCard DisplaySavingsAccPage={DisplaySavingsAccPage} />
+                    </div>
+                    <div className={styles.left_side_card}>
                         <CreditAccCard DisplayCreditAccPage={DisplayCreditAccPage} />
                     </div>
                     <div className={styles.left_side_card}>

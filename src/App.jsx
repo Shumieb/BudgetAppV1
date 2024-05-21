@@ -7,6 +7,7 @@ import Home from './pages/home/Home'
 import Login from './pages/login/Login'
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact'
+import All from './pages/all/All'
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact />
+        },
+        {
+          path: "/all/:name",
+          element: <All />
         },
         {
           path: "/login",

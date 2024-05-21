@@ -1,35 +1,36 @@
-header {
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 25px;
 }
 
-header h1 {
-    padding: 12px;
-    background-color: #012030;
-    color: #ffffff;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 4px;
+.heading {
+    flex: 1;
+    font-size: 25px;
 }
 
-nav ul {
+.nav {
+    flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 1.25em;
-    padding: 4px 6px;
+    justify-content: flex-end;
+    gap: 28px;
+    font-size: 20px;
+    padding: 8px 16px;
 }
 
-nav ul li {
-    padding: 4px 12px;
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-nav ul li a {
-    color: #012030;
-}
-
-nav ul li a:hover {
-    color: #056ba1;
+.user img {
+    width: 26px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
 }

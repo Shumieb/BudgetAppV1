@@ -15,11 +15,11 @@ function App() {
     return (
       <div className="main">
         <NavBar />
-        <div className="container">
-          <div className="menuContainer">
+        <div className="main-container">
+          <div className="menu-container">
             <Menu />
           </div>
-          <div className="contentContainer">
+          <div className="content-container">
             <Outlet />
           </div>
         </div>
@@ -44,16 +44,14 @@ function App() {
         {
           path: "/contact",
           element: <Contact />
+        },
+        {
+          path: "/login",
+          element: <Login />
         }
       ]
-    },
-    {
-      path: "/login",
-      element: <Login />
     }
   ]);
-
-
 
   return (
     <RouterProvider router={router} />
